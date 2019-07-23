@@ -12,6 +12,7 @@
         "firm": "TOM sport"
     },
     "footer": {
-        "address": "Na Spojce 5\n748 01\nHlučín - Bobrovníky"
+        "address": "Na Spojce 5\n748 01\nHlučín - Bobrovníky",
+        "opening_hours": "Po, St, Pá 18:00 - 20:00"
     }
 }

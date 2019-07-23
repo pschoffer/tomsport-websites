@@ -35,6 +35,9 @@ class Footer extends Component {
             {Utils.textNlToBr(texts.footer.address)}
           </div>
           <div className="col text-small text-muted">
+            {texts.footer.opening_hours}
+          </div>
+          <div className="col text-small text-muted">
             <div className="row">
               <div className="col">{this.phone}</div>
             </div>
