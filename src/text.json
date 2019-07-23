@@ -1,0 +1,14 @@
+{
+    "main": {
+        "home": "Úvod",
+        "hours": "Otevírací doba",
+        "pricing": "Ceník",
+        "terms": "Podmínky",
+        "discount": "Akce",
+        "map": "Mapa",
+        "contact": "Kontakt"
+    },
+    "navbar": {
+        "firm": "TOM sport"
+    }
+}
