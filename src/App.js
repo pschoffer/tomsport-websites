@@ -5,13 +5,15 @@ import NavBar from "./components/navbar";
 import Footer from "./components/footer";
 import Home from "./components/home";
 import Pricing from "./components/pricing";
+import Terms from "./components/terms";
 import texts from "./text.json";
 
 class App extends Component {
   state = {
     sites: [
       { id: "home", title: texts.main.home, content: <Home />, isActive: true },
-      { id: "pricing", title: texts.main.pricing, content: <Pricing /> }
+      { id: "pricing", title: texts.main.pricing, content: <Pricing /> },
+      { id: "terms", title: texts.main.terms, content: <Terms /> }
     ]
   };
 
