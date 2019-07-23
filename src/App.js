@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import logo from "./logo.svg";
 import "./App.css";
 import NavBar from "./components/navbar";
+import Footer from "./components/footer";
 import texts from "./text.json";
 
 class App extends Component {
@@ -39,7 +40,10 @@ class App extends Component {
     return (
       <div className="App">
         <NavBar sites={this.state.sites} onChange={this.handleChange} />
-        {this.renderContent()}
+        <div className="container">
+          {this.renderContent()}
+          <Footer />
+        </div>
       </div>
     );
   }
