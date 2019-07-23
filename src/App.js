@@ -3,13 +3,15 @@ import logo from "./logo.svg";
 import "./App.css";
 import NavBar from "./components/navbar";
 import Footer from "./components/footer";
+import Home from "./components/home";
+import Pricing from "./components/pricing";
 import texts from "./text.json";
 
 class App extends Component {
   state = {
     sites: [
-      { id: "home", title: texts.main.home, isActive: true },
-      { id: "pricing", title: texts.main.pricing }
+      { id: "home", title: texts.main.home, content: <Home />, isActive: true },
+      { id: "pricing", title: texts.main.pricing, content: <Pricing /> }
     ]
   };
 
@@ -17,6 +19,7 @@ class App extends Component {
     return {
       id: site.id,
       title: site.title,
+      content: site.content,
       isActive: shouldBeActive
     };
   };
@@ -33,7 +36,7 @@ class App extends Component {
 
   renderContent = () => {
     const active = this.state.sites.filter(site => site.isActive)[0];
-    return active.title;
+    return active.content;
   };
 
   render() {
