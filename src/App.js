@@ -30,10 +30,16 @@ class App extends Component {
     this.setState({ sites: newSites });
   };
 
+  renderContent = () => {
+    const active = this.state.sites.filter(site => site.isActive)[0];
+    return active.title;
+  };
+
   render() {
     return (
       <div className="App">
         <NavBar sites={this.state.sites} onChange={this.handleChange} />
+        {this.renderContent()}
       </div>
     );
   }
