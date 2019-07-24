@@ -14,5 +14,20 @@
     "footer": {
         "address": "Na Spojce 5\n748 01\nHlučín - Bobrovníky",
         "opening_hours": "Po, St, Pá 18:00 - 20:00"
+    },
+    "terms": {
+        "base": [
+            "Lyžařskou nebo snowboardovou výstroj lze u nás rezervovat již 2 až 3 týdny dopředu",
+            "Bude zapůjčena pouze po předložení platného občanského průkazu (příp. cestovního pasu) a ponechání peněžní jistiny dle zapůjčených věcí - viz. ceník",
+            "Půjčovné bude vyměřeno dle uvedeného ceníku a uhrazeno v den vypůjčení",
+            "Prvním dnem placené půjčovní doby se rozumí den následující po dni zapůjčení. Při vrácení se posledním dnem půjčovní doby rozumí den předcházející dni vrácení. Lyže nebo snowboard se půjčují na vlastní nebezpečí"
+        ],
+        "return_title": "Podmínky při vrácení výzbroje",
+        "return": [
+            "Lyže, snowboard a boty musí být v původním stavu (vyčištěné a vysušené)",
+            "Bude vrácena jistina",
+            "Při nedodržení termínu vrácení se účtuje poplatek za každý den prodlení ve výši půjčovného (dle ceníku)",
+            "V případě zjevně úmyslného poškození, odcizení nebo ztráty výzbroje je povinen zákazník uhradit hodnotu zapůjčených věcí ve výši, uvedené jistiny v ceníku."
+        ]
     }
 }
