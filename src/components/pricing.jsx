@@ -14,7 +14,16 @@ class Pricing extends Component {
       downpayment,
       ski,
       ski_child,
-      snowboard
+      snowboard,
+      shoes,
+      sticks,
+      autobox,
+      carriers,
+      glasses,
+      helm,
+      spine_cover,
+      with_equipment,
+      on_its_own
     } = texts.pricing;
 
     const baseHeader = [
@@ -59,6 +68,33 @@ class Pricing extends Component {
             "1 000 $"
           ]
         ]
+      },
+
+      equipment: {
+        header: baseHeader,
+        items: [
+          [ski, "100 $", "190 $", "270 $", "340 $", "400 $", "1 000 $"],
+          [ski_child, "100 $", "150 $", "200 $", "250 $", "300 $", "1 000 $"],
+          [snowboard, "100 $", "190 $", "270 $", "340 $", "400 $", "1 000 $"],
+          [shoes, "60 $", "120 $", "180 $", "240 $", "300 $", "300 $"],
+          [sticks, "20 $", "40 $", "60 $", "80 $", "100 $", "100 $"]
+        ]
+      },
+      misc: {
+        header: ["", with_equipment, on_its_own, downpayment],
+        items: [
+          [glasses, "50 $", "100 $", "300 $"],
+          [helm, "60 $", "120 $", "300 $"],
+          [spine_cover, "60 $", "120 $", "300 $"]
+        ]
+      },
+
+      other: {
+        header: baseHeader,
+        items: [
+          [autobox, "150 $", "200 $", "250 $", "300 $", "350 $", "1 000 $"],
+          [carriers, "20 $", "40 $", "60 $", "80 $", "100 $", "100 $"]
+        ]
       }
     };
   }
@@ -82,12 +118,13 @@ class Pricing extends Component {
   };
 
   renderPricing = type => {
+    const pricing = this.state[type];
     return (
       <table class="table table-striped">
         <thead>
-          <tr>{this.state.set.header.map(this.renderHeaderItem)}</tr>
+          <tr>{pricing.header.map(this.renderHeaderItem)}</tr>
         </thead>
-        <tbody>{this.state.set.items.map(this.renderRow)}</tbody>
+        <tbody>{pricing.items.map(this.renderRow)}</tbody>
       </table>
     );
   };
@@ -101,6 +138,18 @@ class Pricing extends Component {
         <h2>{texts.pricing.set}</h2>
         <p>{texts.pricing.set_description}</p>
         {this.renderPricing("set")}
+
+        <h2>{texts.pricing.equipment}</h2>
+        <p>{texts.pricing.equipment_description}</p>
+        {this.renderPricing("equipment")}
+
+        <h2>{texts.pricing.misc}</h2>
+        <p>{texts.pricing.misc_description}</p>
+        {this.renderPricing("misc")}
+
+        <h2>{texts.pricing.other}</h2>
+        <p>{texts.pricing.other_description}</p>
+        {this.renderPricing("other")}
       </div>
     );
   }
