@@ -29,5 +29,18 @@
             "Při nedodržení termínu vrácení se účtuje poplatek za každý den prodlení ve výši půjčovného (dle ceníku)",
             "V případě zjevně úmyslného poškození, odcizení nebo ztráty výzbroje je povinen zákazník uhradit hodnotu zapůjčených věcí ve výši, uvedené jistiny v ceníku."
         ]
+    },
+    "pricing": {
+        "currency": "Kč",
+        "set": "Komplet",
+        "set_description": "Zapujčení kompletu je naší nejvýhodnější a nejvíce žádanou variantou. Poradíme, nakombinujeme a seřídíme pro Vás ideální kombinaci lyží, bot a holí případně snowboardu a bot.",
+        "day_1": "den",
+        "day_plural": "dny",
+        "day_plural_more": "dnů",
+        "downpayment": "Jistina",
+
+        "ski": "Lyže",
+        "ski_child": "Dětské lyže",
+        "snowboard": "Snowboard"
     }
 }
