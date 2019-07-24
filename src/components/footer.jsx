@@ -13,7 +13,8 @@ class Footer extends Component {
         url:
           "https://www.facebook.com/pg/P%C5%AFj%C4%8Dovna-ly%C5%BE%C3%AD-a-snowboard%C5%AF-TOM-SPORT-Bobrovn%C3%ADky-826224560769649"
       },
-      { id: "mail", url: "mailto:" + this.email }
+      { id: "mail", url: "mailto:" + this.email },
+      { id: "github", url: "https://github.com/pschoffer/tomsport-websites" }
     ]
   };
 
