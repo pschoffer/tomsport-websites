@@ -6,6 +6,7 @@ import Footer from "./components/footer";
 import Home from "./components/home";
 import Pricing from "./components/pricing";
 import Terms from "./components/terms";
+import Discounts from "./components/discounts";
 import texts from "./text.json";
 
 class App extends Component {
@@ -13,6 +14,7 @@ class App extends Component {
     sites: [
       { id: "home", title: texts.main.home, content: <Home />, isActive: true },
       { id: "pricing", title: texts.main.pricing, content: <Pricing /> },
+      { id: "discounts", title: texts.main.discounts, content: <Discounts /> },
       { id: "terms", title: texts.main.terms, content: <Terms /> }
     ]
   };

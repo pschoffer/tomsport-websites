@@ -6,7 +6,8 @@
         "terms": "Podmínky",
         "discount": "Akce",
         "map": "Mapa",
-        "contact": "Kontakt"
+        "contact": "Kontakt",
+        "discounts": "Akce"
     },
     "navbar": {
         "firm": "TOM sport"
@@ -58,6 +59,21 @@
         "glasses": "Brýle",
         "helm": "Přilba",
         "spine_cover": "Chránič páteře"
-
-    }
+    },
+    "discounts": [{
+            "id": "courses",
+            "header": "Zvýhodněné půjčovné na lyžařský kurz",
+            "description": "Cena lyžařského kompletu jen 350 až 450 Kč/týden vč. víkendů"
+        },
+        {
+            "id": "11days",
+            "header": "Akce od 350 Kč za 11 dní",
+            "description": "Na týdenní lyžařský kurs ale i pro každého, kdo si zapůjčí komplet na 5 placených dní a více (až 11dní), půjčujeme carvingové lyže + boty + hole za 350 až 450 Kč a snowboard + boty za 450 Kč. V naší půjčovně si můžete vybrat z množství carvingových lyží a snowboardů. Všechny lyže jsou k zapůjčení připraveny přezkou‘ené a navoskované. Pro Vaši bezpečnost Vám na místě seřídíme vázání."
+        },
+        {
+            "id": "weekend",
+            "header": "Víkendové zapůjčení výzbroje za cenu jednoho dne",
+            "description": "Při víkendovém zapůjčení lyžařské nebo snowboardové výzbroje (pátek až pondělí) je počítán pouze jeden placený den."
+        }
+    ]
 }
