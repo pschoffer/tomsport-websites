@@ -100,17 +100,17 @@ class Pricing extends Component {
   }
 
   renderHeaderItem = item => {
-    return <th scope="col">{item}</th>;
+    return <th scope="col" key={item}>{item}</th>;
   };
 
-  renderPriceItem = item => {
+  renderPriceItem = (item, ix) => {
     const text = item.replace(/\$/g, texts.pricing.currency);
-    return <td>{text}</td>;
+    return <td key={ix}>{text}</td>;
   };
   renderRow = row => {
     const [title, ...items] = row;
     return (
-      <tr>
+      <tr key={title}>
         <th scope="row">{title}</th>
         {items.map(this.renderPriceItem)}
       </tr>
@@ -120,7 +120,7 @@ class Pricing extends Component {
   renderPricing = type => {
     const pricing = this.state[type];
     return (
-      <table class="table table-striped">
+      <table className="table table-striped">
         <thead>
           <tr>{pricing.header.map(this.renderHeaderItem)}</tr>
         </thead>

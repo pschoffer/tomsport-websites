@@ -30,34 +30,25 @@ class Footer extends Component {
 
   render() {
     return (
-      <footer className="pt-4 my-md-5 pt-md-5 border-top">
-        <div className="row">
-          <div className="col text-small text-muted">
-            {Utils.textNlToBr(texts.footer.address)}
-          </div>
-          <div className="col text-small text-muted">
-            <div className="row">
-              <div className="col">{texts.footer.opening_hours}</div>
+      <>
+        <div className="footer-spacer" />
+        <footer className="footer pb-5 p-2 border-top center">
+          <div className="row container">
+            <div className="col text-small text-muted center flex-column">
+              {Utils.textNlToBr(texts.footer.address)}
             </div>
-            <div className="row">
-              <div className="col text-mark">
-                {texts.footer.opening_hours_remark}
-              </div>
+            <div className="col text-small text-muted center flex-column">
+              <div >{texts.footer.opening_hours}</div>
+              <div className="text-mark">              {texts.footer.opening_hours_remark}            </div>
             </div>
-          </div>
-          <div className="col text-small text-muted">
-            <div className="row">
-              <div className="col">{this.phone}</div>
-            </div>
-            <div className="row">
-              <div className="col">{this.email}</div>
-            </div>
-            <div className="row">
-              <div className="col">{this.state.icons.map(this.renderIcon)}</div>
+            <div className="col text-small text-muted center flex-column">
+              <div>{this.phone}</div>
+              <div>{this.email}</div>
+              <div>{this.state.icons.map(this.renderIcon)}</div>
             </div>
           </div>
-        </div>
-      </footer>
+        </footer>
+      </>
     );
   }
 }

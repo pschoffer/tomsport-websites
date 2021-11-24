@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import logo from "./logo.svg";
 import "./App.css";
 import NavBar from "./components/navbar";
 import Footer from "./components/footer";
@@ -49,8 +48,8 @@ class App extends Component {
         <NavBar sites={this.state.sites} onChange={this.handleChange} />
         <div className="container">
           {this.renderContent()}
-          <Footer />
         </div>
+          <Footer />
       </div>
     );
   }

@@ -9,13 +9,12 @@ class NavBar extends Component {
     }
     return (
       <li key={item.id} className={classes}>
-        <a
-          className="nav-link"
-          href="#"
+        <div
+          className="nav-link pointer"
           onClick={() => this.props.onChange(item.id)}
         >
           {item.title} <span className="sr-only">(current)</span>
-        </a>
+        </div>
       </li>
     );
   };
@@ -23,13 +22,12 @@ class NavBar extends Component {
   render() {
     return (
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a
-          className="navbar-brand"
-          href="#"
+        <div
+          className="navbar-brand pointer"
           onClick={() => this.props.onChange("logo")}
         >
           {texts.navbar.firm}
-        </a>
+        </div>
         <button
           className="navbar-toggler"
           type="button"
