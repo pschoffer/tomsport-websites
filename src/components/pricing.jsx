@@ -83,7 +83,7 @@ class Pricing extends Component {
       misc: {
         header: ["", with_equipment, on_its_own, downpayment],
         items: [
-          [glasses, "50 $", "100 $", "300 $"],
+          [glasses, "60 $", "120 $", "300 $"],
           [helm, "60 $", "120 $", "300 $"],
           [spine_cover, "60 $", "120 $", "300 $"]
         ]
