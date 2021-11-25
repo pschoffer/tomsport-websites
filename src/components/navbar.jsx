@@ -19,8 +19,9 @@ const NavBar = (props) => {
     );
   };
 
-  return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+  return <>
+    {/* <div className="navigation-spacer" /> */}
+    <nav className="navbar navbar-expand-lg navbar-dark bg-dark navigation">
       <div
         className="navbar-brand pointer"
         onClick={() => props.onChange("logo")}
@@ -44,7 +45,7 @@ const NavBar = (props) => {
         </ul>
       </div>
     </nav>
-  );
+  </>;
 }
 
 export default NavBar;

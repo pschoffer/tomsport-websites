@@ -5,6 +5,17 @@
   background: white;
 }
 
+.navigation {
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  top: 0;
+}
+
+.navigation-spacer {
+  height: 3rem;
+}
+
 .footer-spacer {
   height: 10rem;
 }

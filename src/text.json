@@ -38,21 +38,19 @@
     "pricing": {
         "currency": "Kč",
         "set": "Komplet",
-        "set_description": "Zapujčení kompletu je naší nejvýhodnější a nejvíce žádanou variantou. Poradíme, nakombinujeme a seřídíme pro Vás ideální kombinaci lyží, bot a holí případně snowboardu a bot.",
+        "set_description": "Zapůjčení kompletu je naší nejvýhodnější a nejvíce žádanou variantou. Poradíme, nakombinujeme a seřídíme pro Vás ideální kombinaci lyží, bot a holí případně snowboardu a bot.",
         "equipment": "Vybavení",
         "equipment_description": "Pokud potřebujete zapůjčit pouze část výstroje, tato sekce je pro Vás. Samozřejmně s doplněním rádi poradíme a vše nastavíme.",
         "misc": "Příslušenství",
-        "misc_description": "Dále nabízíme zapujčení následujícího příslušenství za fixní poplatek bez ohledu na dělku doby pujčení. Cena se lyší v případě že si pujčujete pouze položky z této sekce.",
+        "misc_description": "Dále nabízíme zapůjčení následujícího příslušenství za fixní poplatek bez ohledu na dělku doby pujčení.",
         "other": "Ostatní",
         "other_description": "Finálně nabízíme i autobox a nosiče na převoz vybavení.",
-
         "day_1": "den",
         "day_plural": "dny",
         "day_plural_more": "dnů",
         "downpayment": "Jistina",
         "with_equipment": "S dalším vybavením",
         "on_its_own": "Samostatně",
-
         "ski": "Lyže",
         "ski_child": "Dětské lyže",
         "snowboard": "Snowboard",
@@ -64,7 +62,8 @@
         "helm": "Přilba",
         "spine_cover": "Chránič páteře"
     },
-    "discounts": [{
+    "discounts": [
+        {
             "id": "courses",
             "header": "Zvýhodněné půjčovné na lyžařský kurz",
             "description": "Cena lyžařského kompletu jen 350 až 450 Kč/týden vč. víkendů"

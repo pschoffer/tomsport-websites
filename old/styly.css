@@ -1,0 +1,25 @@
+body {background-color: #CBD3E0; text-align: center}
+
+div#hlavni {position: relative; margin: auto; border: 5px solid ; width: 760px; background-color: #CBD3E0; text-align: center;}
+div#menu {position: relative; margin: auto; width: 760px; background-color: #CBD3E0; text-align: center;}
+div#stranka {position: relative; margin: auto; border: none ; width: 760px; background-color: #CBD3E0; text-align: center;}
+
+a             {color: #0F0982; text-decoration: none; position: relative;}
+a:hover       {color: #5A91F5; text-decoration: none}
+a.menu        {color: #0F0982; text-decoration: none}
+
+img.uvod      {border-bottom: 5px solid}
+img.map       {margin-bottom: 20px; margin-top: 20px;}
+
+td.O          {width: 300px; text-align: left;}
+td.Ot          {width: 200px; text-align: left;}
+
+p.text        {width: 550px ; margin-bottom: 10px;}
+p.kon          {margin-bottom: 10px;}
+
+li.pod         {text-align: left ; margin-left: 100px ; margin-right: 100px ; margin-bottom: 10px}
+
+table.zaloha   {margin-top: 10px; width: 400px}
+
+span.pop       {text-align: center; margin-left: 70px;}
+span.pop1       {text-align: center; margin-left: 55px;}
