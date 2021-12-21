@@ -35,13 +35,15 @@ class Pricing extends Component {
       "3 " + day_plural,
       "4 " + day_plural,
       "5 až 11 " + day_plural_more,
-      sezona,
       downpayment
     ];
+    const setHeader = [...baseHeader];
+    setHeader[setHeader.length - 1] = sezona
+    setHeader.push(downpayment);
 
     this.state = {
       set: {
-        header: baseHeader,
+        header: setHeader,
         items: [
           [
             ski + " - " + set,
