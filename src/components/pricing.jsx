@@ -14,6 +14,7 @@ class Pricing extends Component {
       downpayment,
       ski,
       ski_child,
+      ski_size,
       snowboard,
       shoes,
       sticks,
@@ -23,7 +24,8 @@ class Pricing extends Component {
       helm,
       spine_cover,
       with_equipment,
-      on_its_own
+      on_its_own,
+      sezona,
     } = texts.pricing;
 
     const baseHeader = [
@@ -33,6 +35,7 @@ class Pricing extends Component {
       "3 " + day_plural,
       "4 " + day_plural,
       "5 až 11 " + day_plural_more,
+      sezona,
       downpayment
     ];
 
@@ -47,15 +50,17 @@ class Pricing extends Component {
             "360 $",
             "420 $",
             "450 $",
+            "1 200 $",
             "1 000 $"
           ],
           [
-            ski_child + " - " + set,
+            ski_child + " - " + set + ' ' + ski_size,
             "150 $",
             "200 $",
             "250 $",
             "300 $",
             "350 $",
+            "1 000 $",
             "1 000 $"
           ],
           [
@@ -65,6 +70,7 @@ class Pricing extends Component {
             "360 $",
             "420 $",
             "450 $",
+            "1 200 $",
             "1 000 $"
           ]
         ]
@@ -74,7 +80,7 @@ class Pricing extends Component {
         header: baseHeader,
         items: [
           [ski, "100 $", "190 $", "270 $", "340 $", "400 $", "1 000 $"],
-          [ski_child, "100 $", "150 $", "200 $", "250 $", "300 $", "1 000 $"],
+          [ski_child + ' ' + ski_size, "100 $", "150 $", "200 $", "250 $", "300 $", "1 000 $"],
           [snowboard, "100 $", "190 $", "270 $", "340 $", "400 $", "1 000 $"],
           [shoes, "60 $", "120 $", "180 $", "240 $", "300 $", "300 $"],
           [sticks, "20 $", "40 $", "60 $", "80 $", "100 $", "100 $"]

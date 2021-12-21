@@ -53,6 +53,7 @@
         "on_its_own": "Samostatně",
         "ski": "Lyže",
         "ski_child": "Dětské lyže",
+        "ski_size": "(vel. do 120)",
         "snowboard": "Snowboard",
         "sticks": "Lyž. hole",
         "shoes": "Lyž. a Snb. Boty",
@@ -60,7 +61,8 @@
         "carriers": "Nosiče lyží",
         "glasses": "Brýle",
         "helm": "Přilba",
-        "spine_cover": "Chránič páteře"
+        "spine_cover": "Chránič páteře",
+        "sezona": "Sezóna"
     },
     "discounts": [
         {
