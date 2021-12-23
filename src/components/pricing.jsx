@@ -14,7 +14,7 @@ class Pricing extends Component {
       downpayment,
       ski,
       ski_child,
-      ski_size,
+      ski_child_set,
       snowboard,
       shoes,
       sticks,
@@ -56,7 +56,7 @@ class Pricing extends Component {
             "1 000 $"
           ],
           [
-            ski_child + " - " + set + ' ' + ski_size,
+            ski_child_set,
             "150 $",
             "200 $",
             "250 $",
@@ -82,7 +82,7 @@ class Pricing extends Component {
         header: baseHeader,
         items: [
           [ski, "100 $", "190 $", "270 $", "340 $", "400 $", "1 000 $"],
-          [ski_child + ' ' + ski_size, "100 $", "150 $", "200 $", "250 $", "300 $", "1 000 $"],
+          [ski_child, "100 $", "150 $", "200 $", "250 $", "300 $", "1 000 $"],
           [snowboard, "100 $", "190 $", "270 $", "340 $", "400 $", "1 000 $"],
           [shoes, "60 $", "120 $", "180 $", "240 $", "300 $", "300 $"],
           [sticks, "20 $", "40 $", "60 $", "80 $", "100 $", "100 $"]
